@@ -21,6 +21,10 @@ public class array {
         // TODO code application logic here
         Scanner a = new Scanner(System.in);
         JOptionPane.showMessageDialog(null, "▬▬ι═══════ﺤ");
+        JOptionPane.showMessageDialog(null, "⁽⁽(੭ꐦ •̀Д•́ )੭*⁾⁾");
+        JOptionPane.showMessageDialog(null, "╭∩╮( •̀_•́ )╭∩╮");
+        JOptionPane.showMessageDialog(null, "( -_•)╦̵̵̿╤─");
+        JOptionPane.showMessageDialog(null, "(ง'̀-'́)ง");
         int ivan[] = new int[17];
         String c;
         float v = 0, sum = 0, average = 0;
@@ -39,7 +43,6 @@ public class array {
                 v = sum;
                 average = v / count;
             }
-
             do {
                 c = JOptionPane.showInputDialog("[average] [sum]");
                 switch (c) {
